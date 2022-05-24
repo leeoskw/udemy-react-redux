@@ -11,19 +11,19 @@ export default (props) => {
             <h1>Fundamentos React</h1>
 
             <div className='Exercicios'>
-                <Card titulo="#04 - Desafio Aleatorio">
+                <Card titulo="#04 - Desafio Aleatorio" color="#080">
                     <Aleatorio minimo={1} maximo={40}></Aleatorio>
                 </Card>
 
-                <Card titulo="#03 - Fragmento">
+                <Card titulo="#03 - Fragmento" color="#E94C6F">
                     <Fragmento></Fragmento>
                 </Card>
 
-                <Card titulo="#02 - Passagem de Parâmetros">
+                <Card titulo="#02 - Passagem de Parâmetros" color="#E8B71A">
                     <ComParametro titulo="Meu Titulo" subtitulo="Meu Subtitulo"></ComParametro>
                 </Card>
 
-                <Card titulo="#01 - Primeiro Componente">
+                <Card titulo="#01 - Primeiro Componente" color="#588C73">
                     <Primeiro></Primeiro>
                 </Card>
             </div>
